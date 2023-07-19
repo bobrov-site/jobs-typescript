@@ -13,22 +13,6 @@ export default defineComponent({
   name: 'App',
   components: {},
   setup() {
-    //использование через реактив
-
-    // const state = reactive({
-    //   name: 'Link',
-    //   age: 25 as string | number
-    // })
-    // return {...toRefs(state)}
-
-    //использование через рефы
-    // const name = ref('Link')
-    // name.value = 'daniil'
-    // const age = ref<number | string>(25)
-    // age.value = 30
-
-    // return {name, age}
-
     const jobs = ref<Job[]>([
       {title: 'farm worker', location: 'Moscow', salary: 3000, id: '1'},
       {title: 'fisher', location: 'Stavropol', salary: 4000, id: '2'},
